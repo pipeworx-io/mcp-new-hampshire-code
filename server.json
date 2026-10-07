@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/new-hampshire-code",
+  "title": "New Hampshire Code",
+  "description": "New Hampshire RSA (Revised Statutes Annotated) — state statutes by",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/new-hampshire-code",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-new-hampshire-code",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/new-hampshire-code/mcp"
+    }
+  ]
+}

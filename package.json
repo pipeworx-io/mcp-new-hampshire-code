@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-new-hampshire-code",
+  "version": "0.1.0",
+  "description": "New Hampshire RSA (Revised Statutes Annotated) — state statutes by",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-new-hampshire-code": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "new-hampshire-code"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-new-hampshire-code.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-3f94cf94b2d8a251fd781a9718510e48688167b090cf08b74947ab729fffab2f",
+    "sourceCommit": "be47827ad0f444e813e7224db0489c4ea890a30e"
+  }
+}
