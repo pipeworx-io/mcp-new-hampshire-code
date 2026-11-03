@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-new-hampshire-code",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "New Hampshire RSA (Revised Statutes Annotated) — state statutes by citation and by topic. Fleet #2750.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "new-hampshire-code",
     "gatewaySlug": "new-hampshire-code",
-    "sourceHash": "v1-6a17f45cbd6872d92bca5ae2f24239a3c21f4d8d2ddd267bee4fbaca4eb439eb",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-6bda83900e54240228e4aaed360462f317cb86ebc0ecf97bedda20ac8ea6a602",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
